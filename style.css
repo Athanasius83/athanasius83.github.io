@@ -55,7 +55,7 @@ li {
 	display: inline-block;
 	padding:5px;
 	align-items:center;
-	background:linear-gradient(to left, #fffee0 20%, #ADD8E6 20%) right;
+	background:linear-gradient(to left, #fffee0 25%, #ADD8E6 25%) right;
 	background-size: 500%;
 	transition: 1s ease-in-out;
 }
