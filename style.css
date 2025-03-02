@@ -12,6 +12,15 @@ html{
   text-align:center;
 }
 
+.center-up{
+  position: absolute;
+  left: 50%;
+  top: 0;
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+  text-align:center;
+}
+
 
 h1 {
   font-size:5em;
@@ -50,4 +59,24 @@ li {
 
 li:hover{
   background-position: left;
+}
+
+hr {
+  margin:10px;
+}
+
+
+.table{
+  width:100%;
+  border:1px black;
+}
+
+table{
+  width:85%;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+td{
+  text-align:left;
 }
