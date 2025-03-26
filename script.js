@@ -15,8 +15,6 @@ document.addEventListener("DOMContentLoaded", function(e) {
 	window.addEventListener("keydown",function(e){
 		if (e.key=="Enter"){
 			const newURL = window.location.href;
-			console.log(loadingURL);
-			console.log(newURL);
 			if (!(loadingURL.toString() == newURL.toString())){
 				setTimeout(highlight,delay=35);
 			}
